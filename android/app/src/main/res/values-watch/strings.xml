@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Contador de Passos</string>
+    <string name="steps">Passos</string>
+    <string name="loading">Carregando...</string>
+    <string name="permission_required">Permissão Necessária</string>
+    <string name="grant_permission">Conceder</string>
+    <string name="error">Erro</string>
+    <string name="retry">Tentar</string>
+</resources> 

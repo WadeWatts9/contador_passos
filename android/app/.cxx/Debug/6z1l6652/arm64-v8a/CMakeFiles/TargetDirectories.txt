@@ -1,0 +1,2 @@
+C:/Users/alias/contador_pasos/android/app/.cxx/Debug/6z1l6652/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/alias/contador_pasos/android/app/.cxx/Debug/6z1l6652/arm64-v8a/CMakeFiles/rebuild_cache.dir
