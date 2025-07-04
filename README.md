@@ -272,9 +272,8 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👥 Autores
 
-- [Nome do Aluno 1]
-- [Nome do Aluno 2]
-- [Nome do Aluno 3] (se aplicável)
+- Walter
+- Alan
 
 ## 📞 Suporte
 
