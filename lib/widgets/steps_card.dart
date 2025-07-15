@@ -48,7 +48,7 @@ class StepsCard extends StatelessWidget {
                         'Passos',
                         style: TextStyle(
                           fontSize: 16,
-                          color: Colors.white.withOpacity(0.8),
+                          color: Colors.white.withValues(alpha: 0.8),
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -57,7 +57,7 @@ class StepsCard extends StatelessWidget {
                         '$date às $time',
                         style: TextStyle(
                           fontSize: 12,
-                          color: Colors.white.withOpacity(0.6),
+                          color: Colors.white.withValues(alpha: 0.6),
                         ),
                       ),
                     ],
@@ -65,7 +65,7 @@ class StepsCard extends StatelessWidget {
                   Container(
                     padding: const EdgeInsets.all(8),
                     decoration: BoxDecoration(
-                      color: Colors.white.withOpacity(0.2),
+                      color: Colors.white.withValues(alpha: 0.2),
                       borderRadius: BorderRadius.circular(12),
                     ),
                     child: const Icon(
@@ -95,7 +95,7 @@ class StepsCard extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
+                  color: Colors.white.withValues(alpha: 0.2),
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: Text(
@@ -113,7 +113,7 @@ class StepsCard extends StatelessWidget {
               // Progress indicator
               LinearProgressIndicator(
                 value: _calculateProgress(),
-                backgroundColor: Colors.white.withOpacity(0.3),
+                backgroundColor: Colors.white.withValues(alpha: 0.3),
                 valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
                 minHeight: 6,
               ),
@@ -125,7 +125,7 @@ class StepsCard extends StatelessWidget {
                 'Meta: 10.000 passos',
                 style: TextStyle(
                   fontSize: 12,
-                  color: Colors.white.withOpacity(0.7),
+                  color: Colors.white.withValues(alpha: 0.7),
                 ),
               ),
             ],

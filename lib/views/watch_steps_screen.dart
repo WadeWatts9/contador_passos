@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/steps_viewmodel.dart';
 import '../widgets/watch_steps_card.dart';
-import '../widgets/loading_widget.dart';
+// import '../widgets/loading_widget.dart'; // Unused import
 
 class WatchStepsScreen extends StatefulWidget {
   const WatchStepsScreen({super.key});

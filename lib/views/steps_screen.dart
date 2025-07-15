@@ -96,11 +96,11 @@ class _StepsScreenState extends State<StepsScreen> {
                 errorMessage: viewModel.errorMessage,
               );
               
-                         case StepsState.error:
-               return custom_error.CustomErrorWidget(
-                 message: viewModel.errorMessage,
-                 onRetry: viewModel.initialize,
-               );
+            case StepsState.error:
+              return custom_error.CustomErrorWidget(
+                message: viewModel.errorMessage,
+                onRetry: viewModel.initialize,
+              );
           }
         },
       ),

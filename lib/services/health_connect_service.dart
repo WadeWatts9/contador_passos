@@ -3,7 +3,7 @@ import 'dart:math';
 import '../models/step_data.dart';
 
 class HealthConnectService {
-  static const String _namespace = 'contador_pasos';
+  // static const String _namespace = 'contador_pasos'; // Unused for now
   bool _isInitialized = false;
   bool _hasPermissions = false;
   final Random _random = Random();
@@ -72,7 +72,7 @@ class HealthConnectService {
         source: source,
       );
     } catch (e) {
-      print('Erro ao ler dados de passos: $e');
+      // print('Erro ao ler dados de passos: $e'); // Removed for production
       return null;
     }
   }

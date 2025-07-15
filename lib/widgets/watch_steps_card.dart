@@ -29,11 +29,11 @@ class WatchStepsCard extends StatelessWidget {
         ),
         borderRadius: BorderRadius.circular(16),
         boxShadow: [
-          BoxShadow(
-            color: Colors.blue.withOpacity(0.3),
-            blurRadius: 8,
-            offset: const Offset(0, 4),
-          ),
+                      BoxShadow(
+              color: Colors.blue.withValues(alpha: 0.3),
+              blurRadius: 8,
+              offset: const Offset(0, 4),
+            ),
         ],
       ),
       child: Padding(
@@ -64,11 +64,11 @@ class WatchStepsCard extends StatelessWidget {
             const SizedBox(height: 4),
             
             // Label "passos"
-            Text(
+            const Text(
               'PASSOS',
               style: TextStyle(
                 fontSize: 10,
-                color: Colors.white.withOpacity(0.8),
+                color: Colors.white,
                 fontWeight: FontWeight.w500,
                 letterSpacing: 1,
               ),
@@ -79,7 +79,7 @@ class WatchStepsCard extends StatelessWidget {
             // Barra de progresso
             LinearProgressIndicator(
               value: _calculateProgress(),
-              backgroundColor: Colors.white.withOpacity(0.3),
+              backgroundColor: Colors.white.withValues(alpha: 0.3),
               valueColor: const AlwaysStoppedAnimation<Color>(Colors.white),
               minHeight: 3,
             ),
@@ -91,7 +91,7 @@ class WatchStepsCard extends StatelessWidget {
               '${(steps / 10000 * 100).toInt()}%',
               style: TextStyle(
                 fontSize: 10,
-                color: Colors.white.withOpacity(0.7),
+                color: Colors.white.withValues(alpha: 0.7),
               ),
             ),
             
@@ -102,7 +102,7 @@ class WatchStepsCard extends StatelessWidget {
               '$date $time',
               style: TextStyle(
                 fontSize: 8,
-                color: Colors.white.withOpacity(0.6),
+                color: Colors.white.withValues(alpha: 0.6),
               ),
               textAlign: TextAlign.center,
             ),
